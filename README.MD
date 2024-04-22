@@ -29,9 +29,6 @@
    - If executing, the script will run the binary and then delete it from memory.
    - If saving, choose the location to save the decoded binary file.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
-
 ## Contributions
 Contributions are welcome. Please fork the repository and submit a pull request with your enhancements.
 
