@@ -9,10 +9,6 @@
 - **User-friendly Interface**: Utilizes file dialog boxes for easy selection of input and output files.
 - **Flexible Output Options**: Offers users the choice to either directly execute the decoded binaries or save them to disk.
 
-## Requirements
-- **PowerShell 5.0 or higher**: Ensure that your system is running PowerShell 5.0 or later.
-- **Windows Operating System**: Designed specifically for Windows due to the use of Windows Forms for file dialog interactions.
-
 ## Usage
 
 ### Encoding a File
